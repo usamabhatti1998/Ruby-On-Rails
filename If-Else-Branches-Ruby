@@ -1,0 +1,59 @@
+def multiply(a,b)
+  a*b
+end
+
+def add(a,b)
+  a+b
+end
+
+def divide(a,b)
+  a/b
+end
+
+def subtract(a,b)
+  a-b
+end
+
+
+
+puts " Welcome to Simple Calculator App"
+20.times{print "-" }
+puts " Please Enter the First Number"
+firstNum = gets.chomp
+firstNum= firstNum.to_i
+
+puts " Please Enter the Second Number"
+secondNum= gets.chomp
+secondNum= secondNum.to_i
+
+puts " Please Select the Operation You Want to Do"
+puts " + "
+puts " - "
+puts " * "
+puts " / "
+operator = gets.chomp
+
+if operator == "+"
+puts " You Decided to ADD and The Results in #{firstNum}  + #{secondNum} = #{add(firstNum,secondNum)}"
+
+
+elsif operator == "-"
+puts " You Decided to SUBTRACT and The Results in #{firstNum}  - #{secondNum} = #{subtract(firstNum,secondNum)}"
+
+  
+
+elsif operator == "/"
+puts " You Decided to DIVIDE and The Results in #{firstNum}  / #{secondNum} = #{divide(firstNum,secondNum)}"
+
+
+
+elsif operator == "*"
+puts " You Decided to MULTUPLY and The Results in #{firstNum}  - #{secondNum} = #{multiply(firstNum,secondNum)}"
+  
+else
+puts "Please Enter a Valid Input"
+end 
+
+
+puts " The Project Ends Successfully"
+  
