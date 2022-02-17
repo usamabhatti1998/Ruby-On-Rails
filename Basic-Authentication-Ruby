@@ -1,0 +1,49 @@
+puts "Welcome to basic Authentication System in Ruby On Rails "
+
+20.times {print " - "}
+
+ users1 = [
+{ user:"usama", password: "123"},
+  { user:"usman", password: "1234"},
+  { user:"bhatti", password: "12345"},
+  { user:"khan", password: "123456"},
+]
+
+
+
+
+def checkData(username,password, users)
+  users.each do |user|
+  if user[:user] == username && user[:password] == password
+
+    puts user
+break
+  else
+puts "Password not Correct"
+
+end
+end
+end
+  
+  
+  
+    
+def getData
+  puts "Enter Your User Name"
+username1= gets.chomp
+
+
+puts "Enter Your Password "
+password1 = gets.chomp
+   users1 = [
+{ user:"usama", password: "123"},
+  { user:"usman", password: "1234"},
+  { user:"bhatti", password: "12345"},
+  { user:"khan", password: "123456"},
+]
+ 
+checkData(username1,password1,users1)
+end
+
+
+getData
