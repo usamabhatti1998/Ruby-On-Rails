@@ -1,0 +1,9 @@
+Snake Case: words divided by underscores, eg this_is_snake_case => used for variable assignemnt and methods
+
+Indentation in Ruby: In ruby one tab is 2 spaces. Most programming languages have a tab for 4 spaces, ruby ahas 2 instead. 2 spaces are recommended.
+
+
+Class Names: Every onject at some level sia  calss. 
+Classsnamesa re camel case. No underscores at all. For example: => MyApplication NOT my_application
+camel case is alos thisIsCamelCase <both are corrent but true camels case is this as used in javascript.
+
