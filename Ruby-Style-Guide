@@ -7,3 +7,5 @@ Class Names: Every onject at some level sia  calss.
 Classsnamesa re camel case. No underscores at all. For example: => MyApplication NOT my_application
 camel case is alos thisIsCamelCase <both are corrent but true camels case is this as used in javascript.
 
+Resources: https://github.com/rubocop/ruby-style-guide
+
