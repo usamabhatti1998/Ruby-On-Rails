@@ -1,0 +1,66 @@
+$area_codes = {
+"lahore" => "54000",
+  "gujranwala" => "54001",
+  "isalamabad" => "54002",
+  "fsd" => "54003",
+  "pinid" => "54004",
+  "skp" => "54005",
+}
+
+def show_cities
+    puts $area_codes.keys
+end
+
+
+
+loop do 
+puts " Do You Want to Check the Area Code for Any City (Y/N)"
+  option = gets.chomp.downcase
+
+  break if option == "n"
+show_cities
+
+puts "Enter Your City"
+  city= gets.chomp.downcase$area_codes = {
+"lahore" => "54000",
+  "gujranwala" => "54001",
+  "isalamabad" => "54002",
+  "fsd" => "54003",
+  "pinid" => "54004",
+  "skp" => "54005",
+}
+
+def show_cities
+    puts $area_codes.keys
+end
+
+
+
+loop do 
+puts " Do You Want to Check the Area Code for Any City (Y/N)"
+  option = gets.chomp.downcase
+
+  break if option == "n"
+show_cities
+
+puts "Enter Your City"
+  city= gets.chomp.downcase
+
+  if $area_codes.include?(city)
+    puts "Area Code for #{city} is #{$area_codes[city]}"
+    end
+
+    end
+
+
+    
+
+
+  if $area_codes.include?(city)
+    puts "Area Code for #{city} is #{$area_codes[city]}"
+    end
+
+    end
+
+
+    
