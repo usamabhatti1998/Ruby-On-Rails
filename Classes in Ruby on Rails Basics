@@ -1,0 +1,13 @@
+#declare a class and name should be capital
+class Details 
+attr_accessor :first_name , :last_name  , :email , :username , :password
+  
+end
+#cren object of class 
+user1= Details.new()
+
+user1.first_name =  "Usama"
+
+user1.last_name = "Khan"
+
+puts "my name is #{user1.first_name} and my last name is #{user1.last_name}"
