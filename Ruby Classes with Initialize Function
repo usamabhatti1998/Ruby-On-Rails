@@ -1,0 +1,28 @@
+#declare a class and name should be capital
+
+class Details 
+attr_accessor :first_name , :last_name  , :user_name , :pass_word
+
+#infitialization function
+
+def initialize(firstname, lastname, username, password)
+@first_name = firstname
+@last_name = lastname
+@user_name = username
+@pass_word = password
+
+  #end of def function
+  
+end
+
+  
+  #end of class 
+  
+end
+
+# object of class 
+user1= Details.new("Usama", "Bhatti", "usama123", "787898")
+
+
+puts "My First Name is #{user1.first_name} and my Last Name is #{user1.last_name}."
+
